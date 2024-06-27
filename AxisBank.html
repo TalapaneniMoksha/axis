@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axis Careers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F2F2F2;
+            color: #343659;
+        }
+        .header {
+            background-color: #2E2D59;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header .logo {
+            font-size: 40px;
+            font-weight: bold;
+            margin-left: 70px;
+        }
+        .nav {
+            background-color: #D9D9D9;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #2E2D59;
+            padding: 10px 20px;
+        }
+        .nav a:hover {
+            background-color: #B0B0BF;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            color: #7D192F;
+        }
+        .content section {
+            margin-bottom: 20px;
+        }
+        .content section h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: #2E2D59;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+        }
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: Google Sans;
+            --df-messenger-chat-background: #f3f6fc;
+            --df-messenger-message-user-background: #d3e3fd;
+            --df-messenger-message-bot-background: #fff;
+            --df-messenger-bot-message: #000;
+            --df-messenger-width: 320px; /* Adjusted width */
+            --df-messenger-height: 400px; /* Adjusted height */
+            bottom: 16px;
+            right: 16px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Axis Bank</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Our Business</a>
+            <a href="#">Campus Careers</a>
+            <a href="#">GIG-A Opportunities</a>
+            <a href="#">Life @ Axis Bank</a>
+        </nav>
+    </header>
+    <main class="content">
+        <h2>Why Axis Bank?</h2>
+        <p>
+            At Axis Bank we are open to bigger possibilities for you and your career. We are one of the largest private sector banks in India,<br>
+            on an ambitious journey of digital transformation and are committed to putting our customers first. At Axis Bank you will be solving<br>
+            cutting edge problems in financial services across diverse roles. We offer challenging roles across traditional<br>
+            and new age banking with the ability to build your career through exciting learning and development opportunities. Come be a part of our growth journey!
+        </p>
+        <section>
+            <h2>Perks & Benefits at Axis Bank</h2>
+            <p>We offer benefits that help our employees achieve their professional and personal goals.</p>
+            <p><strong>Insurance:</strong> With Axis Bank, you and your family’s future is always secured through our Group Mediclaim policy (GMP) and Group Term Life Insurance Policy (GTLI).</p>
+            <p><strong>Loan Benefit:</strong> Axis Bank provides home loans and vehicle loans at interest rates which are lower than the prevailing market interest rates to all the full-time employees.</p>
+            <p><strong>Leave:</strong> The leave policy at Axis Bank accommodates a wide variety of options that ensure an employee can take time off whenever they need to.</p>
+            <p><strong>Company Car Policy:</strong> Employees in certain grades are entitled to avail company-owned cars.</p>
+            <p><strong>Mobile Expense Reimbursement:</strong> Employees are eligible to get a reimbursement for phone expenses incurred while carrying out their official duties.</p>
+            <p><strong>Meal Card:</strong> Employees can opt for a prepaid meal card that can be used in multiple stores.</p>
+        </section>
+        <section>
+            <h2>How We Hire</h2>
+            <p>Axis Bank is an equal opportunity workplace that brings together people from diverse backgrounds and gives each person the right opportunity and environment to perform to the best of their abilities.</p>
+            <ol>
+                <li>Application</li>
+                <li>Application Screening</li>
+                <li>Interview</li>
+                <li>Offer Roll-out</li>
+                <li>Documentation Submission</li>
+                <li>Joining and On-boarding</li>
+            </ol>
+        </section>
+        <section>
+            <h2>GIG-A Opportunities</h2>
+            <p>GIG-A-OPPORTUNITIES is redefining conventional work and jobs for skilled professionals who are expanding the boundaries of when, where, and how work is done. At Axis Bank, we do not constrict work to the realms of office workspace but offer flexible working models in more than just one way.</p>
+        </section>
+        <section>
+            <h2>Life @ Axis Bank</h2>
+            <p>Our employees are the true brand ambassadors who drive the journey of living our values – All of Us, All the Time. We have a network of over 900 Axis Values Realizers (AVRs), who passionately drive conversations to cascade values throughout the year.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyrights © Axis Bank Careers.</p>
+    </footer>
+    <df-messenger
+      project-id="appointmentscheduler-ufka"
+      agent-id="7ce9b4fe-a498-4a69-83e8-e157ef50ea17"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat-bubble chat-title=""></df-messenger-chat-bubble>
+    </df-messenger>
+</body>
+</html>
